@@ -9,7 +9,7 @@ Future<void> main() async {
 
   // Connect the app to the Supabase project.
   await Supabase.initialize(
-    url: 'https://vhswppzzksdfwdfahkam.supabase.co/rest/v1/',
+    url: 'https://vhswppzzksdfwdfahkam.supabase.co',
     anonKey: 'sb_publishable_j8b93w_-Il8fG8_pAznE-g_sEt6MiVX',
   );
 
